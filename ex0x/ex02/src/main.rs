@@ -28,4 +28,5 @@ fn alternately_concat(text1: &str, text2: &str) -> String{
 fn alternately_concat_works() {
     assert_eq!(alternately_concat("パトカー", "タクシー"), "パタトクカシーー");
     assert_eq!(alternately_concat("ace", "bdf"), "abcdef");
+    assert_eq!(alternately_concat("aceg", "bdf"), "abcdefg");
 }
